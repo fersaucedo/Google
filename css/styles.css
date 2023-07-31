@@ -1,0 +1,73 @@
+/*GLOBALES*/
+
+html {
+    font-size: 62.5%; /* 1rem = 10px*/
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+ text-decoration: underline;
+}
+
+
+/* NAV */
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: 1.3rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+
+}
+
+nav a:nth-child(3) {
+    padding: 1rem 0 1rem 1rem;
+}
+
+.access {
+    color: #ffffff;
+    background-color: #1a73e8;
+    font-size: 1.4rem;
+    padding: .9rem 2.3rem;
+    border-radius: .4rem;
+
+}
+
+.access:hover {
+    color: #ffffff;
+    background-color: #1b66c9;
+    text-decoration: none;
+}
+
+.access:visited {
+    color: #ffffff;
+}
+
+
+/* MAIN */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen {
+    height: 32rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.imagen img {
+    width: 27.2rem;
+    height: 9.2rem;
+}
