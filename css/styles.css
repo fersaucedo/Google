@@ -61,13 +61,39 @@ main {
 }
 
 .imagen {
-    height: 32rem;
+    min-height: 9.2rem;
+    max-height: 32rem;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    margin-bottom: 3rem;
 }
 
 .imagen img {
     width: 27.2rem;
     height: 9.2rem;
+}
+
+/* BUSCADOR */
+
+.searcher {
+    border: .1rem solid #dfe1e5;
+    border-radius: 2.4rem;
+    min-width: 38rem;
+    max-width: 58.4rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+
+.searcher textarea {
+    border: none;
+    resize: none;
+    width: 39.4rem;
+}
+
+.searcher a {
+    padding: 0 1rem 0 1rem;
 }
